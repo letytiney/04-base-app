@@ -7,7 +7,6 @@ const path = require('path');
 const crearArchivo = async (base = 5, listar = false, limite = 10, hasta = base) => {
     try {
 
-          // Ensure the 'salida' directory exists
           const salidaDir = path.join(__dirname, '../salida');
           if (!fs.existsSync(salidaDir)) {
               fs.mkdirSync(salidaDir);
@@ -17,9 +16,9 @@ const crearArchivo = async (base = 5, listar = false, limite = 10, hasta = base)
             let consola = '';
             let salida = '';
 
-            // crear documento PDF
+           
             const doc = new PDFDocument();
-          //  const pdfFileName = `tabla-${baseActual}.pdf`;
+       
             const pdfFileName = path.join(salidaDir, `tabla-${baseActual}.pdf`);
 
            
