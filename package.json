@@ -1,0 +1,22 @@
+{
+  "name": "04-base-app",
+  "version": "1.0.0",
+  "description": "Aplicacion para generar tablas de multiplicar desde la linea de comandos",
+  "main": "App10.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Multiplicar",
+    "exportado",
+    "pdf",
+    "txt"
+  ],
+  "author": "Sandra Tiney",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "pdfkit": "^0.15.0",
+    "yargs": "^17.7.2"
+  }
+}
